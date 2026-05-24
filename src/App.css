@@ -1,0 +1,56 @@
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.buscador-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  border: 2px solid var(--color-primary);
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.heroes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.no-resultados {
+  text-align: center;
+  color: var(--color-gray);
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+
+.heroe-imagen-contenedor {
+  width: 300px;
+  height: 180px; 
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: var(--color-light);
+}
+
+.heroe-image {
+  width: 300px;
+  height: 100px;
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+
+
+
+
+
+

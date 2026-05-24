@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #7C3AED;
+  --color-primary-light: #EDE9FE;
+  --color-secondary: #06B6D4;
+  --color-dark: #01000a;
+  --color-gray: #6B7280;
+  --color-light: #F9FAFB;
+  --color-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}

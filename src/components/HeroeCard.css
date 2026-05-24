@@ -1,0 +1,60 @@
+.heroe-card {
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Estilo destacado solicitado cuando es favorito */
+.heroe-card.favorito {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-light);
+}
+
+.avatar-circulo {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.poder {
+  color: var(--color-gray);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.categoria {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 15px;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  margin-bottom: 15px;
+}
+
+.btn-favorito {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--color-primary);
+  background-color: transparent;
+  color: var(--color-primary);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-favorito.activo {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}

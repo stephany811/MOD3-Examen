@@ -1,0 +1,14 @@
+[
+ { "id": 1, "nombre": "Spider-Man", "poder": "Trepar paredes", "image": "/images/Spider-Man.jpg",
+"categoria": "Marvel" },
+ { "id": 2, "nombre": "Batman", "poder": "Inteligencia", "image": "/images/Batman.jpg",
+"categoria": "DC" },
+ { "id": 3, "nombre": "Iron-Man", "poder": "Armadura", "image": "/images/Iron-Man.jpg",
+"categoria": "Marvel" },
+ { "id": 4, "nombre": "Wonder-Woman", "poder": "Superfuerza", "image": "/images/Wonder-Woman.jpg",
+"categoria": "DC" },
+ { "id": 5, "nombre": "Thor", "poder": "Rayo", "image": "/images/Thor.jpg",
+"categoria": "Marvel" },
+ { "id": 6, "nombre": "Superman", "poder": "Volar", "image": "/images/Superman.jpg",
+"categoria": "DC" }
+]
